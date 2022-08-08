@@ -1,0 +1,286 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 60vh;
+  background-color: #4343e4;
+}
+
+/* ------ Navigation-bar -----*/
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.nav-item-active {
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  background-color: #ffffff;
+}
+
+.header-image {
+  float: right;
+  width: 35%;
+  position: relative;
+  bottom: 17rem;
+}
+
+.logo {
+  margin-left: 7rem;
+}
+
+.header-text {
+  margin-left: 7rem;
+  margin-top: 4rem;
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+
+/*  COMPAINES */
+
+.companies {
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.company-items {
+  margin-left: 3rem;
+  text-decoration: none;
+  color: #120e43;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/*  APIS  */
+
+.api-heading {
+  margin-left: 7rem;
+  margin-top: 4rem;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  position: relative;
+  margin-top: 4rem;
+  gap: 2rem;
+  left: 16rem;
+}
+
+.card {
+  background-color: white;
+  border-color: #e5eaf4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  padding: 9px 9px;
+}
+
+.card-active {
+  margin-right: 2rem;
+  background-color: white;
+  border-color: #e5eaf4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  padding: 9px 9px;
+}
+
+.card-body {
+  margin: auto 4px;
+}
+
+.card-head-active {
+  color: #3944f7;
+  font-weight: bold;
+}
+
+/*  BLOG-ARTICLE-PART */
+
+.blog-heading {
+  margin: 2rem 8rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.blog-image {
+  position: relative;
+  left: 4rem;
+}
+
+.blog-content {
+  position: relative;
+  left: 4rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: white;
+  border-color: #e5eaf4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.blog-content h6 {
+  font-size: 1rem;
+  color: #4343e4;
+}
+.blog-author {
+  color: #4343e4;
+}
+
+.blog-card-bottom-image {
+  position: relative;
+  left: 21rem;
+  bottom: 2.8rem;
+}
+
+.blog-author {
+  position: relative;
+  left: 4.5rem;
+  bottom: 1.5rem;
+}
+
+/*  FAQ-PART  */
+
+.faq-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #cbeaf6;
+  margin-top: 2rem;
+}
+
+.faq-image {
+  margin-left: 2rem;
+}
+
+.faq-content {
+  margin-left: 4rem;
+}
+
+.faq-content h2 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.faq-content h4 {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 5px 15px;
+  background-color: #2827cc;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/*  DOWNLOAD-PART  */
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8rem;
+}
+
+span {
+  color: #2827cc;
+}
+
+.download-email form {
+  background: #e9edff;
+  border-radius: 10rem;
+}
+
+.download-email input {
+  background: #e9edff;
+  padding: 8px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  padding-right: 8rem;
+  margin: 8px;
+  color: #333;
+  border: none;
+  border-radius: 10rem;
+}
+
+.download-email button {
+  background: #4617fe;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 9rem;
+  margin: 8px;
+}
+
+/*  FOOTER-PART */
+
+.footer-section {
+  background-color: #4343e4;
+}
+
+.footer-logo {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.list {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.list-items {
+  margin-left: 2rem;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.footer-right {
+  position: relative;
+  margin-left: 28rem;
+  bottom: 3rem;
+}
+
+.footer-logos {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.logos-list {
+  position: relative;
+  display: flex;
+  margin-left: 25rem;
+  bottom: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
